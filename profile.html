@@ -3,97 +3,142 @@
 <head>
     <meta charset="utf-8">
     <title>Perfil de usuario</title>
+        <link rel="stylesheet" href="css/style.css" type="text/css" />
 </head>
-<body style="background-image: url(img/banana_fondo.png)">
-  <div>
-       <img src="img/lupa1.jpg" style="width: 100px;height: 100px;" />
-        busqueda e ingresar
-  </div>
+<body>
+ <!--   HEADER-->
+    <div class="encabezado">
+       <div class="wrapper">
+           <div class="logo">
+            <img src="img/banana_logo1.png" alt="logo" />
+            </div>
+            <div class="busqueda">
+            <img src="img/lupa1.jpg" alt="busqueda" />
+            </div>
+            <div class="salir">
+            <img src="img/salir.png" alt="salir" />
+            </div>
+            <div class="usuario">
+            <img src="img/foto_usuario.jpg" alt="foto" />
+            </div>
+           
+    </div>
+    </div>
+    
+<!--    PERFIL DE USUARIO-->
+    <div class="perfil_usuario">
+        <div class="wrapper">
+           <div class="perfil_titulo">
+              <h1>Perfil de Usuario</h1>
+           </div>
+               <div class="perfil_foto">
+                   <img src="img/foto_usuario.jpg" alt="foto usuario" />
+               </div>
+                    <div class="perfil_info">
+                        <ul>
+                        <li>Nombre</li>
+                        <li>Email</li>
+                        <li>Descripción</li>
+                        </ul>
+               </div> 
+</div>
+</div>
   
-  <div>
-      <h1>Perfil de usuario</h1>
-  </div>
-  
-  <div>
-    <table>
-        <tr>
-            <td rowspan="3"><img src="img/usuario.jpg" style="width: 200px;height: 200px;" /td>
-            <td>Nombre</td>
-        </tr>
-        <tr>
-            <td>Email</td>
-        </tr>
-        <tr>
-            <td>Descripción</td>
-        </tr>
-    </table>  
-  </div>
-  
-  <div>
-      <table>
-          <tr>
-              <td colspan="2"><h2>Biblioteca</h2></td>
-          </tr>
-          <tr>
-              <td>
-                  <iframe width="560" height="315" src="https://www.youtube.com/embed/PIApF3nCJZ4" frameborder="0" allowfullscreen></iframe>
-              </td>
-              <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque aliquid eum ad est, ipsum enim. Eos saepe aliquam earum, distinctio aliquid libero nostrum voluptate autem atque mollitia explicabo, magni consequuntur.</td>
-          </tr>
-          <tr>
-              <td>
-                  <iframe width="560" height="315" src="https://www.youtube.com/embed/Q_oFL_b719g" frameborder="0" allowfullscreen></iframe>
-              </td>
-              <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio esse, facilis nulla consequuntur nobis quaerat veniam quo sapiente ab itaque, autem maiores, blanditiis obcaecati! Eos in, consequatur magni fugit quas.</td>
-          </tr>
-          <tr>
-              <td>
-                  <iframe width="560" height="315" src="https://www.youtube.com/embed/AQXVHITd1N4" frameborder="0" allowfullscreen></iframe>
-              </td>
-              <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, perferendis optio nihil voluptatem recusandae quaerat aperiam omnis accusamus! Deserunt, ex ducimus nulla in dolorem quam necessitatibus repellat reprehenderit, reiciendis harum.</td>
-          </tr>
-      </table>
-  </div>
-  
-  <div>
-      <table>
-          <tr>
-             <td colspan="4"><h2>Redes sociales</h2></td>
-          </tr>
-          <tr>
-              <td>
-                  <img src="img/facebook.png" style="width: 100px;height: 100px;" /td>
-              <td>
-                  <img src="img/twitter.jpg" style="width: 100px;height: 100px;" /td>
-              <td>
-                  <img src="img/instagram_logo.png" style="width: 100px;height: 100px;" /td>
-              <td>
-          </tr>
-      </table>
-  </div>
-  
-  <div>
-      <table>
-          <tr>
-              <td colspan="3"><h2>Herramientas</h2></td>
-          </tr>
-          <tr>
-              <td>
-                <img src="img/herramientas.jpg" style="width: 100px;height: 100px;" /td>
-              <td>
-                  <img src="img/privado.png" style="width: 100px;height: 100px;" /td>
-              <td>
-                  <img src="img/amigos.jpg" style="width: 100px;height: 100px;" /td>
-              
-              <td></td>
-          </tr>
-          <tr>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-          </tr>
-      </table>
-  </div>  
+<!--BIBLIOTECA  -->
+    <div class="biblioteca">
+       <div class="wrapper">
+       <div class="biblioteca_titulo">
+        <h1>Biblioteca</h1>
+        </div>
+            <div class="biblioteca_video1">
+                <video controls>
+                   <source src="media/MINIONS%20-%20Banana.mp4" type="video/mp4" />
+                   <source src="media/MINIONS%20-%20Banana.webm" type="video/webm" />
+                </video>
+            </div>
+                <div class="biblioteca_info1">
+                    <h2>Nombre del video1</h2>
+                    <ul>
+                    <li>Views</li>
+                    <li>Date</li>
+                    <li>Tags</li>
+                    </ul>
+                </div>
+            <div class="biblioteca_video2">
+                <video controls>
+                   <source src="media/MINIONS%20-%20Banana.mp4" type="video/mp4" />
+                   <source src="media/MINIONS%20-%20Banana.webm" type="video/webm" />
+                </video>
+            </div>
+                <div class="biblioteca_info2">
+                    <h2>Nombre del video2</h2>
+                    <ul>
+                    <li>Views</li>
+                    <li>Date</li>
+                    <li>Tags</li>
+                    </ul>
+                </div>               
+</div> 
+</div>
+
+<!--REDES SOCIALES-->
+    <div class="redes">
+       <div class="wrapper">
+       <div class="redes_titulo">
+        <h1>Redes Sociales</h1>
+        </div>
+            <div class="facebook">
+             <img src="img/facebook.png" alt="facebook" />
+            </div>
+            <div class="twitter">
+               <img src="img/twitter.jpg" alt="twitter" />
+            </div>
+            <div class="instagram">
+             <img src="img/instagram_logo.png" alt="instagram" />
+            </div>            
+</div> 
+</div>
+
+<!--HERRAMIENTAS -->
+    <div class="herramientas">
+       <div class="wrapper">
+       <div class="herramientas_titulo">
+        <h1>Herramientas</h1>
+        </div>
+            <div class="configuracion">
+            <img src="img/herramientas.jpg" alt="herramienta" />
+            <h3>Configuración</h3>
+            </div>
+            <div class="privatizar">
+            <img src="img/privado.png" alt="privado" />
+            <h3>Privatizar</h3>
+            </div>
+            <div class="etiquetas">
+            <img src="img/etiqueta.png" alt="etiqueta" />
+            <h3>Etiquetas</h3>
+            </div>
+            <div class="amigos">
+            <img src="img/amigos.jpg" alt="amigos" />
+            <h3>Amigos</h3>
+            </div>            
+</div> 
+</div>
+
+<!--VOLVER ARRIBA-->
+   <div class="volver_arriba">
+       <div class="wrapper">
+           <div class="volver_arriba">
+           <img src="img/arriba_volver.png" alt="voler" />
+       </div>
+</div>
+</div>
+
+<!--FOOTER-->
+    <div class="footer">
+       <div class="wrapper">
+        <span>&copy;BananaTube Corporation</span>
+    </div>
+    </div>
+    
 </body>
 </html>

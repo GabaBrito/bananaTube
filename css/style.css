@@ -1,7 +1,106 @@
 body{
     margin: 0;
+    background-color: yellow;
 }
+
 .wrapper{
     width: 960px;
     margin: 0 auto;
+    background-image: url(banana_fondo.png);
+}
+
+.encabezado{
+    width: 100%;
+    float: left;
+}
+
+.logo, .busqueda, .ingresar, .usario {
+    width: 25%;
+    float: left;
+}
+
+.logo img, .busqueda img, .ingresar img, .usuario img {
+    height: 50px;
+}
+
+.bienvenido{
+    width: 100%;
+    float:left;
+}
+
+.bienvenido_titulo{
+    text-align: left;
+}
+
+.bienvenido_video video{
+    max-width:90%;
+    float: left;
+}
+
+.bienvenido_info{
+    text-align: left;
+    float: left;
+}
+
+.populares{
+    width: 100%;
+    float: left;
+}
+
+.populares_titulo{
+    text-align: left;
+}
+
+.populares_video video{
+    max-width: 90%;
+    float: left;
+}
+
+.populares_info{
+    text-align:left;
+    float:left;
+}
+
+.p_redes{
+    width: 100%;
+    float: left;
+}
+
+.p_redes_video video{
+    max-width: 90%;
+    float: left;
+}
+
+.p_redes_info{
+    text-align:left;
+    float: left;
+}
+
+.recomendaciones{
+    width: 100%;
+    float: left;
+}
+
+.recomendaciones_video video{
+    max-width: 90%;
+    float: left;
+}
+
+.recomendaciones_info{
+    text-align: left;
+    float: left;
+}
+
+.volver_arriba{
+    width: 100%;
+    float: left;
+}
+
+.volver_arriba img{
+    width: 5%;
+}
+
+.footer{
+    width: 100%;
+    float:left;
 }

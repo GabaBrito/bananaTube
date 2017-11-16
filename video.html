@@ -2,63 +2,122 @@
 <html lang="es">
 <head>
     <meta charset="utf-8">
-    <title>Video</title>
+    <title>Comentarios</title>
+        <link rel="stylesheet" href="css/style.css" type="text/css" />
 </head>
-<body style="background-image: url(img/banana_fondo.png)">
-   
-   <div></div>
-   
-   <div>
-       <table>
-           <tr>
-               <td><h2>Nombre</h2></td>
-               <td>
-                   <ul>
-                       <li>Mensaje privado</li>
-                       <li>Descarga</li>
-                   </ul>
-               </td>
-           </tr>
-           <tr>
-            <td colspan="2">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/ic87SfqQAAM" frameborder="0" allowfullscreen></iframe>
-                
-            </td> 
-           </tr>
-       </table>
-   </div>
-   
-   <div>
-       <table>
-           <tr>
-              <td><h2>Descripción del video</h2></td>
-               <td><img src="img/estrellas.png" style="width: 100px;height: 100px;" /td>
-           </tr>
-           <tr>
-               <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae rerum, velit accusamus? Alias facere recusandae sint.</td>
+<body>
+ <!--   HEADER-->
+    <div class="encabezado">
+       <div class="wrapper">
+           <div class="logo">
+            <img src="img/banana_logo1.png" alt="logo" />
+            </div>
+            <div class="busqueda">
+            <img src="img/lupa1.jpg" alt="busqueda" />
+            </div>
+            <div class="salir">
+            <img src="img/salir.png" alt="salir" />
+            </div>
+            <div class="usuario">
+            <img src="img/foto_usuario.jpg" alt="foto" />
+            </div>
+           
+    </div>
+    </div>
+    
+<!--VIDEO     -->
+    <div class="video">
+       <div class="wrapper">
+           <div class="video_titulo">
+              <h1>BLUBLI</h1>
+           </div>
+               <div class="video_base">
+                   <video controls>
+                   <source src="media/MINIONS%20-%20Banana.mp4" type="video/mp4" />
+                   <source src="media/MINIONS%20-%20Banana.webm" type="video/webm" />
+                   </video>
+               </div>
+                    <div class="video_info">
+                      <h2>Nombre canal/usuario</h2>
+                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique omnis et dolore voluptatem hic sit distinctio. Culpa odit cum, atque, reprehenderit, rerum praesentium ad itaque, voluptatibus et numquam officia obcaecati.</p>
+               </div>
+            <div class="puntuacion">
+             <img src="img/estrellas.png" alt="puntuacion" />
+            </div>
+
+</div>
+</div>
+            
+<!--COMENTARIOS-->
+    <div class="comentario">
+       <div class="wrapper">
+           <div class="comentario_titulo">
+              <h1>Comentario</h1>
+           </div>
+               <div class="img_usuario1">
+                   <img src="img/usuario_w.png" alt="usuario1">
+                   <h4>Yuleisis</h4>
+                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut deserunt quae facilis. Iusto minus porro voluptatibus, dolorem rem enim quis illum suscipit eveniet adipisci! Porro eligendi nesciunt odio eveniet minima.</p>
+                   <div class="me_gusta">
+                   <img src="img/like.png" alt="like">
+                   </div>
+                   <div class="no_me_gusta">
+                   <img src="img/dislike.png" alt="dislike">
+                   </div>
+               </div>
+                <div class="img_usuario2">
+                     <img src="img/foto_usuario.jpg" alt="usuario2">
+                      <h4>Yonaikel</h4>
+                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique omnis et dolore voluptatem hic sit distinctio. Culpa odit cum, atque, reprehenderit, rerum praesentium ad itaque, voluptatibus et numquam officia obcaecati.</p>
+                    <div class="me_gusta">
+                   <img src="img/like.png" alt="like">
+                   </div>
+                   <div class="no_me_gusta">
+                   <img src="img/dislike.png" alt="dislike">
+                   </div>
+               </div>
                
-               <td><img src="img/facebook.png" style="width: 100px;height: 100px;" /td>
-           </tr>
-       </table>
-   </div>
-   
-   <div>
-       <table>
-           <tr>
-               <td></td>
-               <td></td>
-           </tr>
-           <tr>
-               <td></td>
-               <td></td>
-           </tr>
-           <tr>
-               <td></td>
-               <td></td>
-           </tr>
-       </table>
-   </div>
-   
-   <div></div> 
+</div>
+</div>
+
+<!--RECOMENDACIONES-->
+    <div class="recomendaciones">
+       <div class="wrapper">
+       <div class="recomendaciones_titulo">
+        <h1>Recomendaciones</h1>
+        </div>
+            <div class="recomendaciones_video">
+                   <video controls>
+                   <source src="media/MINIONS%20-%20Banana.mp4" type="video/mp4" />
+                   <source src="media/MINIONS%20-%20Banana.webm" type="video/webm" />
+                   </video>
+            </div>
+                <div class="recomendaciones_info">
+                    <h2>Nombre del video</h2>
+                    <ul>
+                    <li>Views</li>
+                    <li>Date</li>
+                    <li>Tags</li>
+                    </ul>
+                </div>               
+</div> 
+</div>
+
+<!--VOLVER ARRIBA-->
+   <div class="volver_arriba">
+       <div class="wrapper">
+           <div class="volver_arriba">
+           <img src="img/arriba_volver.png" alt="voler" />
+       </div>
+</div>
+</div>
+
+<!--FOOTER-->
+    <div class="footer">
+       <div class="wrapper">
+        <span>&copy;BananaTube Corporation</span>
+    </div>
+    </div>
+    
 </body>
 </html>
